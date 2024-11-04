@@ -1,0 +1,28 @@
+.navbar {
+   background-color: #343a40;
+}
+
+.navbar .navbar-brand {
+   color: #f8f9fa;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.navbar .nav-link {
+   color: #adb5bd !important;
+   font-size: 1.1rem;
+   text-decoration: none !important;
+   margin-right: 15px;
+   transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+   color: #ffffff !important;
+}
+
+@media (max-width: 576px) {
+   .navbar .nav-link {
+       margin-right: 0;
+       margin-bottom: 10px;
+   }
+}
